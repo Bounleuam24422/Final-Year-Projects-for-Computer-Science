@@ -124,8 +124,8 @@ Fontend
 ```bash
 npm run start
 ```
-# web application GUI
-## User Flow
+
+# User Flow
 
 1 Start Detection, Stop Camera
 
@@ -136,6 +136,24 @@ npm run start
 4 Display Driver Status and Voice Alert
   
 <img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/a025bcff-fd50-438b-b2ad-30ca4892d6bb" />
+
+# Web Application GUI
+## Home page
+
+1 Start detection button (ປຸ່ມເລີ່ມ)
+<img width="888" height="526" alt="image" src="https://github.com/user-attachments/assets/a989b8ca-62e3-45a2-93de-bd92c28ae061" />
+
+## Results page
+
+1 Prediction Display Area (ພື້ນທີ່ສະແດງຜົນການພະຍາກອນ)
+
+2 Display Status and Prediction Accuracy (ສະແດງສະຖານະ ແລະ ຄວາມແໝ້ນຍຳ)
+
+3 Display Driver's Current Status (ສະແດງສະຖານະປັນຈຸບັນຂອງຜູ້ຂັບຂີ່)
+
+4 Close Camera Button (ປຸ່ມປິດກ້ອງ)
+
+<img width="893" height="435" alt="image" src="https://github.com/user-attachments/assets/f0e61704-94b6-465e-91d1-6238d3cc4c0c" />
 
 
 
