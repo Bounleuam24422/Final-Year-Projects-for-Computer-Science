@@ -5,8 +5,8 @@ this project reflects my core interest in Computer Science
 
 
 # For model creation, the architectural backbones used were
-ResNet50 and MobileNetV3-Large, 
-both of which are Convolutional Neural Networks (CNNs).
+ResNet50 and MobileNetV3-Large
+both of which are Convolutional Neural Networks (CNNs)
 
 # The results show that the model built with
 - ResNet50 achieved a test accuracy of 99.2% with a 0.43% error rate
@@ -32,34 +32,25 @@ project/
 └── frontend/              # React Frontend
 ```
 
-## 📦 Requiremen
+### 📦 Requiremen
 
 - Python 3.8
 - GPU su
 - Webcam or Iriun W
 
 # 🔧 Installation
-
+## Backend
 ### 1. Create a virtual
+```text
 python -m venv venv
 source venv/bin/activate    # macOS / Linux
 venv\Scripts\activate       # Windows
+```
 
 ### 2. Install depe
 ```bash
 pip install -r requirements.txt
 ```
-requirements.txt does
-fastapi
-uvicorn
-opencv-python
-torch
-torchvision
-pillow
-pygame
-mediapipe
-numpy
-
 ### ⚙️ Config
 
 Update the paths inside main.py to matc
@@ -71,10 +62,10 @@ FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
 ```
 ### ▶️ Running the Backend
 
-S
-
+``` bash
 uvicorn main:app --reload
-
+```
+### Connection successful.
 For deployment (accessible fruvicorn main:app --host 0.0.0.0 --port 8000
 
 ### 📡 API En
@@ -87,8 +78,10 @@ GET /stop → Stop detec
 
 GET /video_feed →_
 
+
 ### 🖥️ React Frontend Integration
 
+```text
 Build a React component (e.g., DetectionBox.jsx) to disp
 
 http://localhost:8000/video_feed
@@ -98,10 +91,11 @@ Use buttons t
 /start → Start
 
 /stop → Stop streami
+```
 
 ### Backend 
 
-##📊 Outpu
+## 📊 Outpu
 
 Awake → Green box +ສະຖານະ: ມີສະຕິ
 
