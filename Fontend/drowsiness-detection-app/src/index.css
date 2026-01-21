@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Phetsarath&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Phetsarath", sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* ป้องกัน Scrollbar */
+}
