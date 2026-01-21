@@ -31,6 +31,28 @@ project/
 ├── requirements.txt
 └── frontend/              # React Frontend
 ```
+## Fontend
+## 📂 Project Structure
+``` text
+frontend/
+├── src/
+│   ├── assets/             # Static assets (e.g. logo.png)
+│   ├── components/         # Reusable components (Header, Footer, etc.)
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   ├── pages/              # Main pages
+│   │   ├── Detection.jsx
+│   │   ├── Home.jsx
+│   ├── App.jsx             # Root component
+│   ├── main.jsx            # Entry point
+│   ├── App.css
+│   ├── index.css
+│   └── ...
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
 ### 📦 Requiremen
 Backend
@@ -63,7 +85,6 @@ React
 ``` bash
 npm install react react-dom
 ```
-
 Vite + React plugin
 ``` bash
 npm install -D vite @vitejs/plugin-react
@@ -86,68 +107,11 @@ ALERT_HARD_PATH = r"D:\path\to\alert_hard.mp3" # Hard alert sound
 FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
 ```
 ### ▶️ Running the Backend
-
+Backend
 ``` bash
 uvicorn main:app --reload
 ```
-
-
-📦 Requirements
-
-Node.js v16+
-
-npm v8+
-
-Backend API running at http://localhost:8000
-
-1. Install dependencies
-# React
-npm install react react-dom
-
-# Vite + React plugin
-npm install -D vite @vitejs/plugin-react
-
-# TailwindCSS + PostCSS + Autoprefixer
-npm install -D tailwindcss postcss autoprefixer
-
-
-If missing, initialize Tailwind:
-
-npx tailwindcss init -p
-
-Running the Frontend
-
-Start the development server:
-
-npm run dev
-
-
-The app will run on:
-
-http://localhost:5173
-
-📡 API Integration
-
-The frontend connects to the FastAPI backend:
-
-GET /start → Start detection
-
-GET /stop → Stop detection
-
-GET /video_feed → Fetch video stream
-
-Make sure the backend is running on http://localhost:8000
-
-📊 Features
-
-🎥 Real-time webcam streaming
-
-🚨 Driver drowsiness & distraction alerts
-
-🌐 UI in Lao + English
-
-🎨 TailwindCSS styled interface (Header, Footer, Detection Box)
-
-🖼️ Screenshots (Optional)
-
-(You can add later with actual UI screen
+Fontend
+``` bash
+npm run start
+```
