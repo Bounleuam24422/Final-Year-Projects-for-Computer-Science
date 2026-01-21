@@ -40,13 +40,15 @@ project/
 
 # 🔧 Installation
 
-1. Create a virtual
+### 1. Create a virtual
 python -m venv venv
 source venv/bin/activate    # macOS / Linux
 venv\Scripts\activate       # Windows
 
-2. Install depe
+### 2. Install depe
+```bash
 pip install -r requirements.txt
+```
 
 requirements.txt does
 fastapi
