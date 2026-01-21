@@ -32,7 +32,7 @@ project/
 └── frontend/              # React Frontend
 ```
 ## Fontend
-## 📂 Project Structure
+
 ``` text
 frontend/
 ├── src/
@@ -62,6 +62,7 @@ Backend
 - Webcam or Iriun W
   
 Fontend
+
 - Node.js v16+
 - npm v8+
 
@@ -75,7 +76,9 @@ venv\Scripts\activate       # Windows
 ```
 
 ### 2. Install dependencies
+
 Backend
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -99,6 +102,8 @@ npx tailwindcss init -p
 ```
 ### ⚙️ Config
 
+Backend
+
 Update the paths inside main.py to matc
 ```text
 MODEL_PATH = r"D:\path\to\ResNet50.pth"        # Trained model file
@@ -106,6 +111,7 @@ ALERT_SOFT_PATH = r"D:\path\to\alert_soft.mp3" # Soft alert sound
 ALERT_HARD_PATH = r"D:\path\to\alert_hard.mp3" # Hard alert sound
 FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
 ```
+
 ### ▶️ Running the Backend
 Backend
 ``` bash
@@ -115,3 +121,4 @@ Fontend
 ``` bash
 npm run start
 ```
+
