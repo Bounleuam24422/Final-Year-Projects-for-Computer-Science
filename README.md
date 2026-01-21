@@ -19,10 +19,9 @@ both of which are Convolutional Neural Networks (CNNs)
 | **MobileNetV3-large** | 0.990 | 0.010 | 4h 39m 15s | 0.980 |
 
 
+## Backend
 This project is a real-time drive thdrows and di usingFastAPI, OpenCV, PyTo.
 It providesreal-time, visual aler, and audio using pygame.
-
-## Backend
 ### Project Structure
 
 ```text
@@ -38,7 +37,8 @@ project/
 └── frontend/              # React Frontend
 ```
 ## Fontend
-
+This is the React Frontend for the project Automatic Driver Drowsiness Warning Using Deep Learning.
+It connects with the FastAPI backend to display real-time video detection, provide alerts, and present UI in Lao/English.
 ``` text
 frontend/
 ├── src/
