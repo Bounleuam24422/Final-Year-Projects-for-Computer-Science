@@ -33,10 +33,15 @@ project/
 ```
 
 ### 📦 Requiremen
+Backend
 
 - Python 3.8
 - GPU su
 - Webcam or Iriun W
+  
+Fontend
+- Node.js v16+
+- npm v8+
 
 # 🔧 Installation
 ## Backend
@@ -47,9 +52,28 @@ source venv/bin/activate    # macOS / Linux
 venv\Scripts\activate       # Windows
 ```
 
-### 2. Install depe
+### 2. Install dependencies
+Backend
 ```bash
 pip install -r requirements.txt
+```
+Fontend
+React
+``` bash
+npm install react react-dom
+```
+
+Vite + React plugin
+``` bash
+npm install -D vite @vitejs/plugin-react
+```
+TailwindCSS + PostCSS + Autoprefixer
+``` bash
+npm install -D tailwindcss postcss autoprefixer
+```
+If missing, initialize Tailwind:
+``` bash
+npx tailwindcss init -p
 ```
 ### ⚙️ Config
 
@@ -65,43 +89,64 @@ FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
 ``` bash
 uvicorn main:app --reload
 ```
-### Connection successful.
-For deployment (accessible fruvicorn main:app --host 0.0.0.0 --port 8000
-
-### 📡 API En
-
-GET / → Bac
-
-GET /start → Sta
-
-GET /stop → Stop detec
-
-GET /video_feed →_
 
 
-### 🖥️ React Frontend Integration
+📦 Requirements
 
-```text
-Build a React component (e.g., DetectionBox.jsx) to disp
+Node.js v16+
 
-http://localhost:8000/video_feed
+npm v8+
 
-Use buttons t
+Backend API running at http://localhost:8000
 
-/start → Start
+1. Install dependencies
+# React
+npm install react react-dom
 
-/stop → Stop streami
-```
+# Vite + React plugin
+npm install -D vite @vitejs/plugin-react
 
-### Backend 
+# TailwindCSS + PostCSS + Autoprefixer
+npm install -D tailwindcss postcss autoprefixer
 
-## 📊 Outpu
 
-Awake → Green box +ສະຖານະ: ມີສະຕິ
+If missing, initialize Tailwind:
 
-Drowsy → Red bສະຖານະ: ເຫງົານອນ! + Hard al
+npx tailwindcss init -p
 
-Distracted → Orangeສະຖານະ: ບໍ່ມີສະມາທິ! + S
+Running the Frontend
 
-No Face → Wສະຖານະ: ບໍ່ພົບ
+Start the development server:
 
+npm run dev
+
+
+The app will run on:
+
+http://localhost:5173
+
+📡 API Integration
+
+The frontend connects to the FastAPI backend:
+
+GET /start → Start detection
+
+GET /stop → Stop detection
+
+GET /video_feed → Fetch video stream
+
+Make sure the backend is running on http://localhost:8000
+
+📊 Features
+
+🎥 Real-time webcam streaming
+
+🚨 Driver drowsiness & distraction alerts
+
+🌐 UI in Lao + English
+
+🎨 TailwindCSS styled interface (Header, Footer, Detection Box)
+
+🖼️ Screenshots (Optional)
+
+(You can add later with actual UI screen
