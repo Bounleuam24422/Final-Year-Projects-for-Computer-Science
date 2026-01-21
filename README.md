@@ -5,12 +5,10 @@ this project reflects my core interest in Computer Science
 
 
 # For model creation, the architectural backbones used were
-ResNet50 and MobileNetV3-Large
+- ResNet50
+- MobileNetV3-Large
+  
 both of which are Convolutional Neural Networks (CNNs)
-
-# The results show that the model built with
-- ResNet50 achieved a test accuracy of 99.2% with a 0.43% error rate
-- MobileNetV3-Large achieved a test accuracy of 98% with a 0.3% error rate.
 
 ### 📊 Model Evaluation Results
 | Model Architecture | Training Accuracy | Training Loss | Training Time | Test Accuracy |
