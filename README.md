@@ -49,7 +49,6 @@ venv\Scripts\activate       # Windows
 ```bash
 pip install -r requirements.txt
 ```
-
 requirements.txt does
 fastapi
 uvicorn
@@ -61,16 +60,16 @@ pygame
 mediapipe
 numpy
 
-# ⚙️ Config
+### ⚙️ Config
 
 Update the paths inside main.py to matc
-
+```text
 MODEL_PATH = r"D:\path\to\ResNet50.pth"        # Trained model file
 ALERT_SOFT_PATH = r"D:\path\to\alert_soft.mp3" # Soft alert sound
 ALERT_HARD_PATH = r"D:\path\to\alert_hard.mp3" # Hard alert sound
 FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
-
-# ▶️ Running the Backend
+```
+### ▶️ Running the Backend
 
 S
 
@@ -78,7 +77,7 @@ uvicorn main:app --reload
 
 For deployment (accessible fruvicorn main:app --host 0.0.0.0 --port 8000
 
-# 📡 API En
+### 📡 API En
 
 GET / → Bac
 
@@ -88,7 +87,7 @@ GET /stop → Stop detec
 
 GET /video_feed →_
 
-# 🖥️ React Frontend Integration
+### 🖥️ React Frontend Integration
 
 Build a React component (e.g., DetectionBox.jsx) to disp
 
@@ -100,9 +99,9 @@ Use buttons t
 
 /stop → Stop streami
 
-# Backend wil
+### Backend 
 
-📊 Outpu
+##📊 Outpu
 
 Awake → Green box +ສະຖານະ: ມີສະຕິ
 
@@ -111,5 +110,4 @@ Drowsy → Red bສະຖານະ: ເຫງົານອນ! + Hard al
 Distracted → Orangeສະຖານະ: ບໍ່ມີສະມາທິ! + S
 
 No Face → Wສະຖານະ: ບໍ່ພົບ
-# Installation
 
