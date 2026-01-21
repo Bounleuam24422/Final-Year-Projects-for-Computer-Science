@@ -126,9 +126,13 @@ npm run start
 ```
 # web application GUI
 ## User Flow
+
 1 Start Detection, Stop Camera
+
 2 Processed Images
+
 3 Analysis Results
+
 4 Display Driver Status and Voice Alert
   
 <img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/a025bcff-fd50-438b-b2ad-30ca4892d6bb" />
