@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+bin/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Python bytecode (จากภาพที่คุณแนบมา)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
