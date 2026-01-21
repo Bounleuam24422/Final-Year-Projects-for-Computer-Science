@@ -22,7 +22,7 @@ This project is a real-time drive thdrows and di usingFastAPI, OpenCV, PyTo.
 It providesreal-time, visual aler, and audio using pygame.
 
 ```text
-project/
+backend/
 ├── app/main.py                # FastAPI Backend
 ├── models/ResNet50.pth, MobileNetV3.pth    # Trained model file
 ├── alerts/
@@ -149,7 +149,7 @@ npm run start
 
 2 Display Status and Prediction Accuracy (ສະແດງສະຖານະ ແລະ ຄວາມແໝ້ນຍຳ)
 
-3 Display Driver's Current Status (ສະແດງສະຖານະປັນຈຸບັນຂອງຜູ້ຂັບຂີ່)
+3 Display Driver's Current Status (ສະແດງສະຖານະປັດຈຸບັນຂອງຜູ້ຂັບຂີ່)
 
 4 Close Camera Button (ປຸ່ມປິດກ້ອງ)
 
