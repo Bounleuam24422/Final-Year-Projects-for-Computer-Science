@@ -112,7 +112,7 @@ ALERT_HARD_PATH = r"D:\path\to\alert_hard.mp3" # Hard alert sound
 FONT_PATH = r"D:\path\to\NUOL95P.ttf"          # Lao font file
 ```
 
-### ▶️ Running the Backend
+### ▶️ Running
 Backend
 ``` bash
 uvicorn main:app --reload
@@ -121,4 +121,14 @@ Fontend
 ``` bash
 npm run start
 ```
+# web application GUI
+## User Flow
+- Start Detection, Stop Camera
+- Processed Images
+- Analysis Results
+- Display Driver Status and Voice Alert
+- 
+<img width="908" height="587" alt="image" src="https://github.com/user-attachments/assets/a025bcff-fd50-438b-b2ad-30ca4892d6bb" />
+
+
 
