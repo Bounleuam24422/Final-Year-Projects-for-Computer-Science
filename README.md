@@ -17,7 +17,9 @@ This project is a real-time drive thdrows and di usingFastAPI, OpenCV, PyTo.
 It providesreal-time, visual aler, and audio using pygame.
 
 ## Backend
-📂 Recommended Pro
+# Project Structure
+
+```text
 project/
 ├── main.py                # FastAPI Backend
 ├── models/ResNet50.pth    # Trained model file
@@ -28,11 +30,13 @@ project/
 │   └── NUOL95P.ttf
 ├── requirements.txt
 └── frontend/              # React Frontend
-📦 Requiremen
+```
 
-Python 3.8
-GPU su
-Webcam or Iriun W
+## 📦 Requiremen
+
+- Python 3.8
+- GPU su
+- Webcam or Iriun W
 
 # 🔧 Installation
 
