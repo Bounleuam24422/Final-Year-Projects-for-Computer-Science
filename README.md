@@ -155,5 +155,12 @@ npm run start
 
 <img width="893" height="435" alt="image" src="https://github.com/user-attachments/assets/f0e61704-94b6-465e-91d1-6238d3cc4c0c" />
 
+## Detection Result
+
+Drowsy Detected
+<img width="902" height="585" alt="image" src="https://github.com/user-attachments/assets/e2af7973-3567-4bc9-8c6a-8dfc648f9943" />
+
+Distracted Detected
+<img width="902" height="475" alt="image" src="https://github.com/user-attachments/assets/db47f206-f746-447e-8051-a0c54160521d" />
 
 
