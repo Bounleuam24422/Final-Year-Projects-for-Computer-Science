@@ -12,13 +12,11 @@ both of which are Convolutional Neural Networks (CNNs)
 - ResNet50 achieved a test accuracy of 99.2% with a 0.43% error rate
 - MobileNetV3-Large achieved a test accuracy of 98% with a 0.3% error rate.
 
-``` table
-  ### 📊 Model Evaluation Results
+### 📊 Model Evaluation Results
 | Model Architecture | Training Accuracy | Training Loss | Training Time | Test Accuracy |
 | :--- | :---: | :---: | :---: | :---: |
 | **ResNet50** | 0.999 | 0.004 | 8h 17m 30s | 0.992 |
 | **MobileNetV3-large** | 0.990 | 0.010 | 4h 39m 15s | 0.980 |
-```
 
 
 This project is a real-time drive thdrows and di usingFastAPI, OpenCV, PyTo.
